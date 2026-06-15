@@ -1,0 +1,20 @@
+{
+  "name": "gar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "maps": "arts"
+  },
+  "keywords": [],
+  "author": "Antonio Bourassa",
+  "license": "MIT",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.3.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module"
+}
