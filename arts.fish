@@ -23,7 +23,7 @@ function arts --description 'Convert PNG to WebP, optionally recurse, clean orig
     end
 
     if not command -q cwebp
-        echo "arts: 'cwebp' not found. Install it with: sudo apt install webp" >&2
+        echo "arts: 'cwebp' not found. Install it with: brew install webp" >&2
         return 1
     end
 
